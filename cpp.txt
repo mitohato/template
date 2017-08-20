@@ -12,14 +12,14 @@ typedef pair<long, long> pll;
 #define FOR(i, s, e) for (int i = (s); i < (int)(e); ++i)
 #define REP(i, n) FOR(i, 0, n)
 #define endl '\n'
-#define mod 1e9 + 7
-#define INF 999999999
 #define F first
 #define S second
 #define pb push_back
 #define mp make_pair
 
-const int dx[] = {1, 0, -1, 0, 1, 1, -1, -1}, dy[] = {0, 1, 0, -1, 1, -1, 1, -1};
+const int DX[] = {1, 0, -1, 0, 1, 1, -1, -1}, DY[] = {0, 1, 0, -1, 1, -1, 1, -1};
+const int MOD = (int)1e9 + 7;
+const int INF = 999999999;
 
 template<typename T>
 void print(const std::vector<T>& v, char sep=' ') {
